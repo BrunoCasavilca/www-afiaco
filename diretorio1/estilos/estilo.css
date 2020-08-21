@@ -1,0 +1,363 @@
+
+*{
+  margin:0;
+  padding: 0;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/*site completo*/
+.site-completo{
+
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/*corte vertical onde fica todos os elementos*/
+.site-recortado{
+width: 61.8%;
+min-width: 360px;
+
+box-shadow: 1px 3px 9px #888;
+}
+
+/* corte horizontal (1) da area onde fica o menu e o banner*/
+header{
+  min-width: 360px;
+    height: 150px;
+    z-index: 10;
+      display:grid;
+      text-align: center;
+}
+
+nav{min-width: 360px;
+  background-color: #ff0000;/*vermelho*/
+}
+
+/*menu*/
+
+.menu{
+  min-width: 360px;
+  text-align:center;
+  height: 50px;
+ 
+}
+
+.menu ul{
+  display:inline-block;
+  list-style:none;
+  transform:skew(-25deg);
+
+}
+
+.menu ul li{
+
+  height: 50px;
+  background:#ffffff;/*branca*/
+  float:left;
+  border-right:1px solid #eee;
+  box-shadow:0 1px 1px rgba(0,0,0,0.1);
+  text-transform:uppercase;
+  color:#555;
+  font-weight:bolder;
+  transition:all 0.3s linear;
+
+
+   
+
+}
+
+.menu ul li:hover {
+    background:#eee;
+    color:tomato;
+  }
+
+.menu a{
+    display:block;
+    padding:1em 1em;
+    color:inherit;
+    text-decoration:none;
+    transform:skew(25deg);
+  }
+
+
+/***codigo javascript***/
+.fixed-header{
+  min-width: 360px;
+  position: fixed;
+  width: 61.8%;
+}
+
+nav{
+  min-width: 360px;
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+}
+
+
+/*text*/
+.subtitulo{
+
+  min-width: 360px;
+  color: red;
+  font-weight: bolder;
+   font-size: 48px;
+  text-align: center;
+    background: white;
+  font-family: 'Londrina Outline', cursive;
+  
+}
+
+.review{
+ 
+  text-align: center;
+  background-color: black;
+}
+
+.google-review{
+float: left;
+width: 50%;
+
+ }
+.facebook-review{
+float: left;
+width: 50%;
+
+ }
+
+
+h1 {
+margin-top: 2%;
+  min-width: 360px;
+  color: white;
+   font-size: 2.5em;
+  text-align: center;
+    background: #B0C4DE;
+  font-family:  'Lucida Console', Monaco, monospace;
+  font-stretch: expanded;
+  font-style:italic;
+}
+
+h2{
+  text-align: center;
+  font-style:italic;
+
+}
+
+
+
+.texto{
+  text-indent: 30px;
+color: black;
+ text-align: justify;
+  display: table-cell;
+  float: left;
+ vertical-align: middle;
+  font-size: 1.4rem;
+  font-family:  'Didact Gothic' sans-serif;
+  line-height: 1.7;
+  min-width: 340px;
+ width: 50%; 
+  padding: 3%;
+  margin: 3%;
+}
+
+.imagem{
+  min-width: 360px;
+  display: table-cell;
+  float: left;
+  width: 33%;
+  padding-top: 10%;
+  margin:3%;
+  
+}
+
+#index{
+min-width: 360px;
+display: table;
+width: 100%
+width: 
+}
+
+
+#servico{
+ padding-top:50px;
+display: table; 
+min-width: 360px; 
+background-color: black;
+}
+#review{
+ padding-top:50px;
+display: table; 
+min-width: 360px; 
+width: 100%;
+height: 300px;
+background-color: white;
+}
+
+
+.galleria{ 
+width: 48%; 
+margin: 1%;
+min-width: 360px;
+height: 400px; 
+background: white;
+display: block;
+float: left;
+
+}
+
+.whatsapp{
+  position:fixed;
+  min-width:60px;
+  min-height:60px;
+  bottom:5%;
+  right:5%;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000; 
+}
+
+.maps{
+height: 400px;
+width: 100%;
+}
+
+.final{
+background-color: #B0C4DE;
+padding: 5%;
+width: 100%;
+}
+
+.final a{
+color: black;
+display:inline-block;
+text-decoration:none;
+text-align: center;
+font-family: 'Londrina Outline', cursive;
+font-size: 22px;
+font-weight: bold;
+}
+
+
+#shopping{
+  
+padding-top:50px;
+
+min-width: 360px;
+background-color: #eee;
+
+}
+
+
+
+/*SHOPPING CARD*/
+.container{
+min-width: 360px;
+padding-left: 0;
+padding-right: 0;
+border:1px solid black;
+
+}
+
+.col-md-5{
+
+width:100%;
+
+float: left;
+padding: 0;
+display: block;
+
+padding:  2%;
+  border:1px solid black;
+
+}
+
+.col-md-7{
+
+float: left;
+width:33%;
+min-width: 360px;
+background-color: #eee;
+padding:  2%;
+ border:1px solid black;
+}
+
+.button-container{
+position: absolute;
+
+background-color: #eee;
+width: 40%;
+min-width: 360px;
+padding:  2%;
+
+}
+paypal
+
+#paypal-button-container{
+width:100%;
+float: left;
+display: table;
+padding:  2%;
+border:1px solid black;
+
+}
+
+
+.preço{
+  color: #FE980F;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+
+
+}
+
+
+/*SHOPPING CARD*/
+
+
+/*SHOPPING*/
+
+.aumentar,.diminuir,.quantidade{
+  
+    height:27px;width:27px
+
+}
+.quantidade{
+    width:27px;
+    text-align: center;
+    font-size:16px;
+}
+
+
+.resumo{
+  background-color: lightblue;
+  width: 30%;
+  border:1px solid black;
+ 
+  float: left;
+}
+
+.card-header{
+  background-color: lightblue;
+ 
+  border:1px solid black;
+}
+
+p{
+  color:white;
+}
