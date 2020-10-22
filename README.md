@@ -1,6 +1,6 @@
 Site simples com html, css, imagens, menu hover.
 
-www.afiacocutelaria.com.br.
+www.afiacocutelaria.com.br
 
 
 a melhorar:
